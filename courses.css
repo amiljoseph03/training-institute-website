@@ -1,0 +1,372 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: "Libertinus Sans", sans-serif;
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+.navbar{
+    position: sticky;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    padding: 5px;
+    /* justify-content: space-between; */
+    margin: auto;
+    /* background-color: rgb(24, 37, 32);  */
+     /* background: transparent;  */
+    /* margin-left: 35px; */
+    background-color: white;
+    font-size: 20px;
+   gap: 30px;
+}
+
+.navbar li:hover {
+    color: blueviolet;
+}
+
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    /* margin-right: 95px;  */
+    justify-content: space-around;
+    margin: 0 35px; 
+
+}
+/* .................overview  */
+
+section #home{
+    width: 100vh;
+    height: 100vh;
+}
+
+.overviewimage img{
+    width: 100% ;
+    height: 70vh;
+}
+.overviewimage .text {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  color: white;
+  z-index: 2;
+
+  padding: 10px 20px;
+  border-radius: 8px;
+  
+}
+.overviewimage .text h1{
+    font-size: 70px;
+    color: white;
+}
+.overviewimage .text h3{
+    font-size: 70px;
+}
+/* ................................................  */
+
+/* .searchbar{
+    width: 200px;
+    height: 300px;
+} */
+
+section #courses{
+    width: 100vh;
+    height: 100vh;
+}
+
+section #courses .searchbar{
+    width: 300px;
+}
+
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+     transition: transform 0.3s, box-shadow 0.3s;
+
+     
+}
+
+.project {
+    width: 550px;
+    height: 850px;
+     padding: 25px; 
+    /* text-align: center; */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 30px;
+    border-color: black;
+    /* margin-right: 30px; */
+    /* margin-left: 30px; */
+    box-shadow: 2px 4px 6px rgb(202, 194, 194);
+}
+.project h4{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.project img {
+    width: 100%;
+    height:350px;
+    /* border-radius: 8px; */
+    /* transition: transform 0.3s, box-shadow 0.3s; */
+}
+
+/* .project img:hover {
+    transform: scale(1.03);
+    box-shadow: 3px 6px 8px 10px rgba(0, 0, 0, 0.3);
+} */
+
+.project:hover {
+    transform: scale(1.03);
+    box-shadow: 3px 6px 8px 10px rgba(0, 0, 0, 0.3);
+   
+}
+
+
+
+.project h2, h1 {
+    margin-top: 10px;
+    font-size: 25px;
+    /* color: black; */
+    color: rgb(61, 58, 58);
+}
+.project i{
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.project p{
+    font-size: 23px;
+    color: rgb(27, 26, 26);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+   
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    font-size: 22px;
+}
+
+
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* space between elements */
+     justify-content: space-between;
+}
+
+.search-box {
+    padding: 10px 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+     flex: 1; /* makes search box grow */
+    /* max-width: 400px;  */
+
+margin-left: 100px;
+  width: 750px;
+  /* padding: 12px 16px; */
+  font-size: 24px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.all-courses-box {
+    /* padding: 10px 14px; */
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+       /* padding: 10px 14px; */
+    border: none;
+    border-radius: 6px;
+    background-color: #e9f0ff;
+    font-size: 16px;
+    color: #1a2b5c;
+    cursor: pointer;
+    height: 60px;
+    width: 390px;
+  
+    
+}
+select{
+    /* margin-right: 500px; */
+}
+
+.icon-btn {
+    padding: 8px 12px;
+    font-size: 28px;
+    border: none;
+    /* background: none; */
+    background-color: white;
+    cursor: pointer;
+    height: 30px;
+     /* margin-right: 90px;  */
+}
+.icon-btn2 {
+    padding: 8px 12px;
+    font-size: 28px;
+    border: none;
+    /* background: none; */
+    background-color: white;
+    cursor: pointer;
+    height: 30px;
+     margin-right: 90px; 
+}
+
+
+
+/* ........................  */
+
+/* footer  */
+
+footer{
+     background-color: #142046;
+     color: white;
+     margin-top: 90px;
+}
+
+.footer {
+   
+    display: flex;
+    gap: 10px; 
+    
+}
+
+.resources, .links{
+    flex: 1; 
+}
+
+footer h1{
+    font-size: 30px;
+    margin-top: 90px;
+    color: white;
+}
+footer li{
+    font-size: 20px;
+}
+/* .............  */
+
+/* Dropdown menu */
+.dropdown-items {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    padding: 0;
+    list-style: none;
+    /* margin: 0; */
+    margin-right: 20px;
+    display: none;
+    /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
+    border-radius: 4px;
+    min-width: 150px;
+    z-index: 999;
+}
+
+.dropdown-items li {
+    padding: 10px 14px;
+    white-space: nowrap;
+}
+
+.dropdown-items li:hover {
+    background: #f2f2f2;
+}
+
+
+.dropdown:hover .dropdown-items {
+    display: block;
+      /* color: blueviolet; */
+}
+.dropdown {
+    position: relative;
+    cursor: pointer;
+}
+.dropdown-items li:hover {
+    color: blueviolet;
+}
+.dropdown:hover .dropdown-items {
+    display: block;
+}
+
+.copyright {
+    margin-top: 90px;
+    margin-left: 30px;
+    /* margin-bottom: 50px; */
+    display: flex;
+    gap: 50px; 
+    justify-content: space-between;
+   
+    height: 200px;
+}
+.copyright .c3, .c2{
+    flex: 1; 
+    gap: 140px;
+}
+/* ........................  */
+.whatsapp {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 9999; 
+}
+
+.whatsapp img {
+    width: 90px;
+    height: auto;
+    animation: zoomEffect 1.5s infinite ease-in-out;
+    cursor: pointer;
+}
+
+@keyframes zoomEffect {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+.icon-bg {
+  background-color:blueviolet; 
+  color: white; 
+  padding: 8px; 
+  border-radius: 0%; 
+  font-size: 25px; 
+  margin-left: 30px;
+
+   width: 40px;  
+  height: 40px; 
+   text-align: center;
+   line-height: 40px;
+   display: inline-block;
+}
+
+
